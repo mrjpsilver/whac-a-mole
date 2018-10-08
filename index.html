@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whac-A-Mole!</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Whac-A-Mole! <span class="score">0</span></h1>
+  <fieldset>
+    <legend>This game</legend>
+    <div id="controls">
+      <button class="btn start" onClick="startGame()">Start Game</button>
+      <button class="btn stop" onClick="stopGame()">Stop Game</button>
+      <button class="btn reset" onClick="resetGame()">Reset Score</button>
+      <div id="duration">
+        <label for="time">Duration:</label>
+        <input type="number" id="time" name="time" placeholder="10 sec" min="5">
+      </div>
+    </div>
+  </fieldset>
+
+  <div id="board">
+    <div class="hole hole1">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole2">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole3">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole4">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole5">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole6">
+      <div class="mole"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="whacamole.js"></script>
+</body>
+</html>
