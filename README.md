@@ -22,5 +22,5 @@ Click a “mole” as it appears. The amount of time each mole stays visible sho
 Provide a GIT repository with your source code. If any build systems were used, please include instructions to run them in a Readme. 
 
 ### Example
-![Screenshot](https://www.dropbox.com/s/8z1uf1jbn9ic98r/whack-a-mole-550x405.png?dl=1)
+![Screenshot](https://user-images.githubusercontent.com/8537936/46616645-01220e80-cae9-11e8-8c2f-f959509e2d7c.png)
 **Score: 4**
