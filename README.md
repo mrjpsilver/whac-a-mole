@@ -23,4 +23,5 @@ Provide a GIT repository with your source code. If any build systems were used, 
 
 ### Example
 ![Screenshot](https://user-images.githubusercontent.com/8537936/46616645-01220e80-cae9-11e8-8c2f-f959509e2d7c.png)
+
 **Score: 4**
